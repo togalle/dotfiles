@@ -4,3 +4,7 @@
 
 vim.keymap.set("n", "<leader>gg", ":LazyGit<CR>", { silent = true, noremap = true })
 vim.keymap.set("n", "<leader>mp", ":MarkdownPreview<CR>", { silent = true, noremap = true })
+
+-- Remap default <leader>l to <leader>Ll
+vim.keymap.del("n", "<leader>l")
+vim.keymap.set("n", "<leader>Ll", "<cmd>Lazy<cr>", { desc = "Open LazyVim" })

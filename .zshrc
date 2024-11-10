@@ -125,7 +125,13 @@ unset __conda_setup
 #
 # neofetch --source ~/Code/neofetch-ascii.txt
 
+# spicetify
 export PATH=$PATH:/home/tomasgalle/.spicetify
+
+# Go/golang
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/home/tomasgalle/.local/bin
 
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
