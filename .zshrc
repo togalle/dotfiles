@@ -133,6 +133,7 @@ export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/tomasgalle/.local/bin
 
+# nvm, but this is slow, using fnm instead
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -147,4 +148,5 @@ fi
 eval "$(fnm env --use-on-cd --shell zsh)"
 
 # zprof # This is for auditing to see which processes take up most time on startup
-alias dotfiles='/usr/bin/git --git-dir=/home/tomasgalle/.dotfiles/ --work-tree=/home/tomasgalle'
+
+alias dotfiles='/usr/bin/git --git-dir=/home/tomasgalle/.dotfiles/ --work-tree=/home/tomasgalle' # Save dotfiles to github
