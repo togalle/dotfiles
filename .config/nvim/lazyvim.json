@@ -7,7 +7,6 @@
     "lazyvim.plugins.extras.lang.json",
     "lazyvim.plugins.extras.lang.markdown",
     "lazyvim.plugins.extras.lang.python",
-    "lazyvim.plugins.extras.lang.rust",
     "lazyvim.plugins.extras.lang.svelte",
     "lazyvim.plugins.extras.lang.yaml",
     "lazyvim.plugins.extras.util.dot",
@@ -17,5 +16,5 @@
   "news": {
     "NEWS.md": "7107"
   },
-  "version": 6
+  "version": 7
 }

@@ -126,7 +126,7 @@ unset __conda_setup
 # neofetch --source ~/Code/neofetch-ascii.txt
 
 # spicetify
-export PATH=$PATH:/home/tomasgalle/.spicetify
+#export PATH=$PATH:/home/tomasgalle/.spicetify
 
 # Go/golang
 export GOPATH=$HOME/go
@@ -144,6 +144,9 @@ if [ -d "$FNM_PATH" ]; then
   export PATH="/home/tomasgalle/.local/share/fnm:$PATH"
   eval "`fnm env`"
 fi
+
+# Automatic ls after each cd
+chpwd() ls -a
 
 eval "$(fnm env --use-on-cd --shell zsh)"
 
