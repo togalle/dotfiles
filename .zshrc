@@ -31,7 +31,7 @@ ZSH_THEME="robbyrussell"
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
-# zstyle ':omz:update' frequency 13
+zstyle ':omz:update' frequency 13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -83,17 +83,17 @@ source $ZSH/oh-my-zsh.sh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/tomasgalle/miniconda3/bin/conda' 'shell.bash' 'hook' 2>/dev/null)"
-if [ $? -eq 0 ]; then
-  eval "$__conda_setup"
-else
-  if [ -f "/home/tomasgalle/miniconda3/etc/profile.d/conda.sh" ]; then
-    . "/home/tomasgalle/miniconda3/etc/profile.d/conda.sh"
-  else
-    export PATH="/home/tomasgalle/miniconda3/bin:$PATH"
-  fi
-fi
-unset __conda_setup
+# __conda_setup="$('/home/tomasgalle/miniconda3/bin/conda' 'shell.bash' 'hook' 2>/dev/null)"
+# if [ $? -eq 0 ]; then
+#   eval "$__conda_setup"
+# else
+#   if [ -f "/home/tomasgalle/miniconda3/etc/profile.d/conda.sh" ]; then
+#     . "/home/tomasgalle/miniconda3/etc/profile.d/conda.sh"
+#   else
+#     export PATH="/home/tomasgalle/miniconda3/bin:$PATH"
+#   fi
+# fi
+# unset __conda_setup
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
