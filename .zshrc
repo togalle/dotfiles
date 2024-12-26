@@ -147,6 +147,7 @@ fi
 
 # Automatic ls after each cd
 chpwd() ls -a
+alias nv="nvim"
 
 eval "$(fnm env --use-on-cd --shell zsh)"
 
